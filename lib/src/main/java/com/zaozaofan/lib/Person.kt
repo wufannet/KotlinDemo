@@ -2,7 +2,7 @@ package com.zaozaofan.lib
 
 import kotlin.String as String1
 
-data class Person(val name: String1, val age: Int? = null) //少了好多代码,不过也没什么卵用,本来已经是通过json自动生成bean类了.
+data class Person(val name: String1, val age: Int? = null,val nick: kotlin.String? = null) //少了好多代码,不过也没什么卵用,本来已经是通过json自动生成bean类了.
 
 fun main(args: Array<String1>) {
     val person = listOf(Person("a"), Person("b", 29))   //list数据接口

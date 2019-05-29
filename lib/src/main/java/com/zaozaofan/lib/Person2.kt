@@ -14,10 +14,13 @@ class Rectangle(val height: Int,val width: Int){
 
 fun main() {
     val person = Person2("b",true)
-    person.isMarried = false //直接使用属性,不需要getter
+//    person.isMarried = false //直接使用属性,不需要getter
+//
+//    val rectangle = Rectangle(1,1)
+//    println("is square "+rectangle.isSquare)
 
-    val rectangle = Rectangle(1,1)
-    println("is square "+rectangle.isSquare)
+    println(person) //com.zaozaofan.lib.Person2@29453f44
+    print(person.toString()) //com.zaozaofan.lib.Person2@29453f44
 
 }
 
