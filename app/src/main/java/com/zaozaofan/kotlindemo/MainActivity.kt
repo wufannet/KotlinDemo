@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         mTv1 = findViewById(R.id.mTv1)
-        mTv1.setOnClickListener { println("lambda") }
+        mTv1.setOnClickListener { println(it.visibility) }
+
     }
 }
